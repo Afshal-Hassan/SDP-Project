@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy</title>
+</head>
+<body>
+
+  <div>
+    <h1>Privacy Policy</h1>
+    <p><strong>Data Collection:</strong> Our student management system collects personal information solely for the purpose of academic administration. This includes student names, contact information, academic records, and attendance details.</p>
+
+    <p><strong>Data Usage:</strong> The data collected is used exclusively for academic purposes, such as student enrollment, grading, and communication with parents or guardians. We do not use this information for marketing or any other commercial purposes.</p>
+
+    <p><strong>Data Security:</strong> We employ industry-standard security measures to protect the personal information stored within our student management system. This includes encryption of data, restricted access controls, and regular security audits.</p>
+
+    <p><strong>Data Sharing:</strong> We do not share personal student information with third parties unless required by law or with explicit consent from parents or guardians. Any sharing of data is done in compliance with applicable privacy regulations.</p>
+
+    <p><strong>Data Retention:</strong> Personal student information is retained only for as long as necessary to fulfill academic requirements and legal obligations. After this period, data may be securely archived or deleted according to our data retention policies.</p>
+
+    <p><strong>Parental Rights:</strong> Parents or legal guardians have the right to review, update, or request deletion of their child's personal information stored in our student management system. Requests for access or modifications can be made through the school administration.</p>
+
+    <p><strong>Policy Changes:</strong> We reserve the right to update or modify this privacy policy as needed to reflect changes in legal requirements, technological advancements, or business practices. Any significant changes will be communicated to users through appropriate channels.</p>
+  </div>
+
+</body>
+</html>
