@@ -2,7 +2,7 @@ const express = require('express');
 const router = new express.Router();
 const { studentRegister, loginStudent, logoutStudent, studentValid, dashboardInfo } = require('../controllers/studentController');
 const authenticate = require('../middleware/authenticate');
-const { markAttendance, getAttendence, getSpecificStudentAttendance, getPolicies, getAllExamSchedules, getAllExamResults} = require('../controllers/attendeneController')
+const { markAttendance, getAttendence, getSpecificStudentAttendance, getPolicies, getAllExamSchedules, getAllExamResults } = require('../controllers/attendeneController')
 
 
 // for user registration
@@ -20,8 +20,8 @@ router.get("/privacyPolicies", getPolicies);
 
 // for attendence marking
 router.post('/markAttendance', authenticate, markAttendance)
-router.get('/getAttendence', authenticate, getAttendence)
-router.get('/getSpecificStudent/attendance', authenticate, getSpecificStudentAttendance)
+router.post('/getAttendence', authenticate, getAttendence)
+router.post('/getSpecificStudent/attendance', authenticate, getSpecificStudentAttendance)
 
 
 // Get all exams schedules
