@@ -4,6 +4,7 @@ const { studentRegister, loginStudent, logoutStudent, studentValid, dashboardInf
 const authenticate = require('../middleware/authenticate');
 const { markAttendance, getAttendence, getSpecificStudentAttendance, getPolicies, getAllExamSchedules, getAllExamResults } = require('../controllers/attendeneController')
 
+// ROUTES
 
 // for user registration
 
